@@ -37,10 +37,19 @@ h2{
   border-radius: 5px;
   border: none;
   margin-bottom: 30px;
+  color: black;
 }
 .input-label{
   display: flex;
   align-items: center;
   padding-bottom: 10px;
   font-size: 18px;
+}
+.form-group,
+.form-group-radio{
+  margin-bottom: 30px;
+}
+.form-group-radio{
+  display: flex;
+  justify-content: space-between;
 }
