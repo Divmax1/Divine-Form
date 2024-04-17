@@ -52,8 +52,8 @@
         <input id="age" type="number" placeholder="Age" min="16" max="50" class="age">
       </div>
 
-      <div class="form-group-radio">
-        <p>What Hall were you assigned to?</p>
+      <div class="form-group">
+        <p class="orange">What Hall were you assigned to?</p>
         <div class="form-group-radio">
           <label>
             <input type="radio" name="hall" id="hall" class="hall" required />Hall A
@@ -72,7 +72,7 @@
       </div>
 
       <div class="form-group">
-        <label for="">When did you arrive at the venue</label>
+        <label for="dropdown" class="orange">When did you arrive at the venue</label>
         <select id="dropdown" class="dropdown" required>
           <option disabled selected value>Select what suits you</option>
           <option value="1">Before the time</option>
@@ -82,78 +82,94 @@
       </div>
 
       <div class="form-group">
-        <p>Rate your performance</p>
-        <label>
-          <input
-          type="radio"
-          id="performance"
-          class="performance"
-          name="performance"
-          checked
-        />I spank am
-        </label>
-        
-        <label>
-          <input
-          type="radio"
-          id="performance"
-          class="performance"
-          name="performance"
-        />I'm not sure
-        </label>
-        
-        <label>
-          <input
-          type="radio"
-          id="performance"
-          class="performance"
-          name="performance"
-        />I don bang
-        </label>
-        
-        <label>
-          <input
-          type="radio"
-          id="performance"
-          class="performance"
-          name="performance"
-        />I prefer not to speak
-        </label>
-        
-        <label>
-          <input
-          type="radio"
-          id="performance"
-          class="performance"
-          name="performance"
-        />UI no go kill me
-        </label>
+
+        <p class="orange">Rate your performance</p>
+
+        <div class="performance-div-1">
+          <label>
+            <input
+            type="radio"
+            id="performance"
+            class="performance"
+            name="performance"
+            checked
+          />I spank am
+          </label>
+          
+          <label>
+            <input
+            type="radio"
+            id="performance"
+            class="performance"
+            name="performance"
+          />I'm not sure
+          </label>
+          
+          <label>
+            <input
+            type="radio"
+            id="performance"
+            class="performance"
+            name="performance"
+          />I don bang
+          </label>
+         
+        </div>
+
+        <div class="performance-div-2">
+
+           
+          <label>
+            <input
+            type="radio"
+            id="performance"
+            class="performance"
+            name="performance"
+          />I prefer not to speak
+          </label>
+          
+          <label>
+            <input
+            type="radio"
+            id="performance"
+            class="performance"
+            name="performance"
+          />UI no go kill me
+          </label>
+
+        </div>
         
       </div>
 
       <div class="form-group">
-        <p>What Chemistry courses did you offer</p>
-        <label>
-          <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 156
-        </label>
-        
-        <label>
-          <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 126
-        </label>
-        
-        <label>
-          <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 176
-        </label>
+        <p class="orange">What Chemistry courses did you offer</p>
+
+        <div class="checkbox-div">
+          <label>
+            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 156
+          </label>
+          
+          <label>
+            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 126
+          </label>
+          
+          <label>
+            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />Che 176
+          </label>
+          
+        </div>
         
       </div>
 
       <div class="form-group">
-        <label for="textarea">Summarize your experience</label>
+        <label for="textarea" class="orange">Summarize your experience</label>
         <textarea id="textarea" placeholder="I love Chemistry!!!" class="textarea"></textarea>
       </div>
 
       <div class="form-group">
-        <button type="submit" id="submit" class="submit-button">Submit</button>
+        
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        
       </div>
     </form>
     </div>
